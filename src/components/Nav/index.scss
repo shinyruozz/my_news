@@ -1,0 +1,31 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 4.4rem;
+    height: 3.5rem;
+    z-index: 2;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden; //隐藏滚动条样式
+    background-color: #fff;
+    .nav-list {
+        display: flex;
+        width: 100%;
+        height: 4.4rem;
+        overflow-x: scroll;
+        line-height: 3.5rem;
+    }
+    .nav-item {
+        padding: 0 1.5rem;
+        &.current {
+            .item-lk {
+                color: #ec7a70;
+            }
+        }
+        .item-lk {
+            width: 100%;
+            height: 100%;
+            font-size: 1.6rem;
+            white-space: nowrap;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+html,
+body,
+#app {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    a {
+        text-decoration: none;
+        color: #222;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+        font-weight: normal;
+    }
+    div,
+    li {
+        box-sizing: border-box;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    img {
+        width: 100%;
+    }
+}

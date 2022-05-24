@@ -1,0 +1,15 @@
+.collect {
+    position: fixed;
+    top: 1.4rem;
+    right: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: 100%;
+    z-index: 3;
+    &.o {
+        background-image: url('../../images/star_o.png');
+    }
+    &.full {
+        background-image: url('../../images/star_full.png');
+    }
+}
